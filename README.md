@@ -1,6 +1,6 @@
 This Github repository contains the configuration files necessary for setting up EVPN using Cumulus Linux and Quagga on the Reference Topology.
 
-This demo is equivalent to the scenario in the MAC+IP Address learning section of the [BGP EVPN for VXLAN](https://cumulusnetworks.com/learn/web-scale-networking-resources/white-paper/Cumulus-Networks-White-Paper-EVPN_00ZOn8r/) whitepaper.  The whitepaper includes relevent commands to check the setup and operation of Cumulus EVPN.
+This demo is equivalent to the scenario in the MAC+IP Address learning section of the [BGP EVPN for VXLAN](https://cumulusnetworks.com/learn/web-scale-networking-resources/white-paper/Cumulus-Networks-White-Paper-EVPN_nY4KaJO/) whitepaper.  The whitepaper includes relevent commands to check the setup and operation of Cumulus EVPN.
 
 The flatfiles in this repository will set up a BGP unnumbered along with the IPv4 and EVPN address family between the leafs and spines.  The servers will have a basic IPv4 and IPv6 configuration.  Server01 and 04 are in one VLAN/VXLAN, and servers 02 and 03 are in a different VLAN/VXLAN.
 
